@@ -18,7 +18,7 @@ def extract_date(filename):
 
 def process_light_folder(light_dir, flat_dir, start_index, logic):
     """
-    Processes one filter folder (e.g., .../System1/B) by:
+    Processes one filter folder (e.g., .../System1/B) by: 
       1. Gathering all FLAT files (using only their calendar date) and creating a sorted list
          of unique flat dates.
       2. Renaming each FLAT file with a prefix "Grp_XX_" where XX is determined by the date’s order,

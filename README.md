@@ -1,4 +1,4 @@
-# Group and Rename Frames for PixInsight WBPP
+# Group and Rename astrophotography data for PixInsight WBPP
 
 This script helps group flat frames and light frames based on the dates they were taken. The grouping keyword `Grp` is added as a prefix to each file name, which can be used in PixInsight's WBPP for easy batch processing.
 
