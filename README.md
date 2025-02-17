@@ -5,7 +5,7 @@ This script helps group flat frames and light frames based on the dates they wer
 ## Overview
 
 The script can process directories with the following structure:
-
+```
 WitchHead/ 
         ├── IC2118_Pane_01
         │   ├── System1
@@ -22,6 +22,7 @@ WitchHead/
         |   |   ├── Ha
         │   │   │   ├── FLAT
         |   |   |   ├── LIGHT
+```
 
 
 For each filter folder (such as `B`, `R`, etc.) containing `FLAT` and `LIGHT` subfolders, the script performs the following tasks:
